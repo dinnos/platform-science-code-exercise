@@ -1,11 +1,11 @@
 import {TextCompositionProcessor, TextCompositionResponse} from "../text-composition";
-import {isEven} from "@platform-science/common/utils";
-import {DestinationDistribution} from "@platform-science/shipment/application/assign/destination-distribution";
+import {DestinationDistribution} from "./destination-distribution";
+import {isEven} from "../../../common";
 
 /**
  * Class responsible for assigning drivers to destinations based on suitable scores.
  */
-export class ShipmentAssignation {
+export class ShipmentAssigner {
     /**
      * Creates an instance of ShipmentAssignation.
      * @param textCompositionProcessor - An instance of TextCompositionProcessor for processing text compositions.

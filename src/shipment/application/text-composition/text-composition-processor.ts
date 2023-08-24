@@ -1,4 +1,4 @@
-import { TextCompositionResponse } from "@platform-science/shipment/application/text-composition/text-composition-response";
+import { TextCompositionResponse } from "./text-composition-response";
 
 /**
  * Class for processing and analyzing text compositions.

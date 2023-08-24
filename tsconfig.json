@@ -4,9 +4,6 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "module": "CommonJS",
-    "paths": {
-      "@platform-science/*": ["./src/*"]
-    },
     "outDir": "dist",
     "removeComments": true,
     "importHelpers": true,

@@ -1,4 +1,5 @@
-import {TextCompositionResponse} from "@platform-science/shipment/application/text-composition";
+import {TextCompositionResponse} from "../text-composition";
+
 
 export interface DestinationDistribution {
     even: TextCompositionResponse[];

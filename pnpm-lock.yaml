@@ -4,6 +4,17 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+dependencies:
+  '@types/n-readlines':
+    specifier: ^1.0.3
+    version: 1.0.3
+  n-readlines:
+    specifier: ^1.0.1
+    version: 1.0.1
+  tslib:
+    specifier: ^2.6.2
+    version: 2.6.2
+
 devDependencies:
   '@faker-js/faker':
     specifier: ^8.0.2
@@ -735,9 +746,14 @@ packages:
       pretty-format: 29.6.3
     dev: true
 
+  /@types/n-readlines@1.0.3:
+    resolution: {integrity: sha512-6zMvlOZp56sEEndnkEX+A05Q+LrPB7yDUX1d5oE0aOF9rIE10ndhZHEy0mBFqzBUIw5sSFMUypwgD3FehplPvg==}
+    dependencies:
+      '@types/node': 20.5.4
+    dev: false
+
   /@types/node@20.5.4:
     resolution: {integrity: sha512-Y9vbIAoM31djQZrPYjpTLo0XlaSwOIsrlfE3LpulZeRblttsLQRFRlBAppW0LOxyT3ALj2M5vU1ucQQayQH3jA==}
-    dev: true
 
   /@types/stack-utils@2.0.1:
     resolution: {integrity: sha512-Hl219/BT5fLAaz6NDkSuhzasy49dwQS/DSdu4MdggFB8zcXv7vflBI3xp7FEmkmdDkBUI2bPUNeMttp2knYdxw==}
@@ -1904,6 +1920,11 @@ packages:
     resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==}
     dev: true
 
+  /n-readlines@1.0.1:
+    resolution: {integrity: sha512-z4SyAIVgMy7CkgsoNw7YVz40v0g4+WWvvqy8+ZdHrCtgevcEO758WQyrYcw3XPxcLxF+//RszTz/rO48nzD0wQ==}
+    engines: {node: '>=6.x.x'}
+    dev: false
+
   /natural-compare@1.4.0:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
     dev: true
@@ -2288,6 +2309,10 @@ packages:
       v8-compile-cache-lib: 3.0.1
       yn: 3.1.1
     dev: true
+
+  /tslib@2.6.2:
+    resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
+    dev: false
 
   /type-detect@4.0.8:
     resolution: {integrity: sha512-0fr/mIH1dlO+x7TlcMy+bIDqKPsw/70tVyeHW787goQjhmqaZe10uwLujubK9q9Lg6Fiho1KUKDYz0Z7k7g5/g==}

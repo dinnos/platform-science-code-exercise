@@ -1,1 +1,1 @@
-export { isEven } from "@platform-science/common/utils/is-even";
+export { isEven } from "./is-even";
