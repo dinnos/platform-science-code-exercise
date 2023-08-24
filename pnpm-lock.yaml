@@ -5,9 +5,6 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  '@types/n-readlines':
-    specifier: ^1.0.3
-    version: 1.0.3
   n-readlines:
     specifier: ^1.0.1
     version: 1.0.1
@@ -22,6 +19,9 @@ devDependencies:
   '@types/jest':
     specifier: ^29.5.4
     version: 29.5.4
+  '@types/n-readlines':
+    specifier: ^1.0.3
+    version: 1.0.3
   '@types/node':
     specifier: ^20.5.4
     version: 20.5.4
@@ -750,10 +750,11 @@ packages:
     resolution: {integrity: sha512-6zMvlOZp56sEEndnkEX+A05Q+LrPB7yDUX1d5oE0aOF9rIE10ndhZHEy0mBFqzBUIw5sSFMUypwgD3FehplPvg==}
     dependencies:
       '@types/node': 20.5.4
-    dev: false
+    dev: true
 
   /@types/node@20.5.4:
     resolution: {integrity: sha512-Y9vbIAoM31djQZrPYjpTLo0XlaSwOIsrlfE3LpulZeRblttsLQRFRlBAppW0LOxyT3ALj2M5vU1ucQQayQH3jA==}
+    dev: true
 
   /@types/stack-utils@2.0.1:
     resolution: {integrity: sha512-Hl219/BT5fLAaz6NDkSuhzasy49dwQS/DSdu4MdggFB8zcXv7vflBI3xp7FEmkmdDkBUI2bPUNeMttp2knYdxw==}
