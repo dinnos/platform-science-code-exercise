@@ -4,7 +4,7 @@
   "description": "Platform Science Code Exercise",
   "scripts": {
     "build": "tsc",
-    "dev": "ts-node src",
+    "start": "ts-node src",
     "test": "jest"
   },
   "author": {
