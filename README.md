@@ -48,13 +48,14 @@ This class processes and analyzes text compositions. It contains a method to exe
 ## Requirements
 
 - Node.js ^20
+- [pnpm](https://pnpm.io/) - Package manager for installing dependencies
 
 ## Setup
 
 To set up the project, follow these steps:
 
 1. Clone this repository to your local machine.
-2. Install the required dependencies by running `npm install` or `yarn install`.
+2. Install the required dependencies by running `pnpm install`.
 
 ## Running the Solution
 
@@ -63,13 +64,13 @@ After setting up the project, you can run the application using the provided scr
 To build the TypeScript code, run:
 
 ```bash
-npm run build
+pnpm run build
 ```
 
 To execute the application and provide the required input files, run:
 
 ```bash
-npm start
+pnpm start
 ```
 
 Assumptions:
