@@ -17,7 +17,7 @@ describe('TextCompositionProcessor', () => {
         const vowels = (normalized.match(/[aeiou]/gi) ?? []).length;
         const consonants = (normalized.match(/(?![aeiou])[a-z]/gi) ?? []).length
 
-        const expected: TextCompositionResponse = { size, vowels, consonants };
+        const expected: TextCompositionResponse = { size, vowels, consonants, value: text };
         const result = processor.execute(text);
 
         expect(result).toStrictEqual(expected);
